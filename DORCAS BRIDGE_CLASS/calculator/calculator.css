@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.calculator{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 800px;
+    background-color:gray; 
+    padding: 5px;
+}
+
+.screen{
+    height: 20px;
+    background-color: bisque;
+}
+.numcontainers{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+    height: 80%;
+    gap: 5px;
+
+}
+
+.keys{
+    background-color: blueviolet;
+    
+}

@@ -1,0 +1,26 @@
+body{
+    background-color: blue;
+    padding: 90px;
+    color: white;
+}
+.header{
+color:greenyellow;
+}
+nav{
+text-align: center;
+}
+.par{
+    padding: 90px;
+}
+img{
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    margin-left: 700px;
+    border-radius: 100px;
+}
+.shadow{
+    border-radius: 200px;
+    background-color: rgba(0,0,0,0.5);
+    opacity:0.6;
+}

@@ -1,0 +1,77 @@
+body{
+    background-image: url(flowerBG.jpg);
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+.header{
+    background-color: white;
+    margin: 0px;
+    line-height: 10px;
+    border: 10px solid white;
+    display: flex;    
+}
+h1{
+    font-size: 25px;
+    margin-left: 50px;
+    color:black;
+}
+.sam{
+    font-size: 25px;
+    color: hotpink
+}
+a{
+    text-decoration: none;
+    justify-content:space-between;
+    margin-left: 50px;
+    padding-left: 100px;
+    align-items: center;
+}
+
+img{
+    height: 20px;
+    width: 20px;
+    margin-left: 50px;
+    padding-top: 15px;
+}
+
+
+a:hover{
+color: hotpink;
+}
+
+span{
+    display: flex;
+} 
+
+nav span a{
+padding-top: 20px
+}
+
+div{
+    margin-left: 70px;
+}
+
+h3{
+    font-size: 50px;
+    margin-top: 200px;
+}
+
+.p1{
+    color: hotpink;
+    font-size: 35px;
+}
+ 
+.p2{
+    color: grey;
+    font-size: 20px;
+    opacity: 0.6;
+}
+
+input{
+border-radius: 35px;
+background-color: black;
+color: white;
+padding: 10px;
+width: 120px;
+}
